@@ -1,0 +1,42 @@
+SQL
+XE Prior Release Archive
+stáhnout opravdu verzi 11gr2
+vytvořit oracle ucet
+nastavit 
+a} vicefaktorove overovani (MFA), kde je na vyber mobilni aplikace = vyžaduje instalaci Oracle Mobile Authenticator - pridat ucet - naskenovat kod
+b} emailove overeni
+
+jit do downloads slozky
+otevřít soubor DISK1
+kliknout na setup
+extrahovat
+otevřít
+instalace je spustena
+potvrdit terms and conditions
+instalace dale probiha
+ikonka je primo viditelna na plose
+otevřít 
+kliknout na application Express
+kliknout na Application express
+username = system
+password = heslo, které jste si zadali v prubehu instalace
+
+
+primo v aplikaci muzes>
+
+CREATE NEW USER
+db username = Pavla (coz je workspace)
+application express username = system
+Password = szystem
+
+login
+
+
+nebo vyhledej v pc> run sql command line a napis
+
+SQL> connect
+Enter user-name: Pavla
+Enter password: szystem    (password for system)
+connected
+
+
